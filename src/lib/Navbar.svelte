@@ -1,11 +1,10 @@
 <section>
   <div></div>
   <nav>
-    <a href="/">About &gt;</a>
-    <a href="/projects">VietType &gt;</a>
-    <a href="/archive">NUNG Exhibition &gt;</a>
-    <a href="/about">Baviett &gt;</a>
-    <a href="/contact">Three.js &gt;</a>
+    <button><a href="/">About &gt;</a></button>
+    <button><a href="/projects">VietType &gt;</a></button>
+    <button><a href="/archive">NUNG Exhibition &gt;</a></button>
+    <button><a href="/about">Baviett &gt;</a></button>
   </nav>
 </section>
 <img
@@ -34,17 +33,26 @@
   }
 
   nav {
-    font-family: 'IBM Plex Mono', serif;
-    font-weight: 400;
-    font-size: 20px;
     display: flex;
     flex-direction: column;
     grid-area: 'nav';
   }
 
+  button {
+    padding: 0;
+    margin: 0;
+    border-style: none;
+    background: white;
+    display: block;
+    text-align: left;
+  }
+
   a {
     color: black;
     text-decoration: none;
+    font-family: 'IBM Plex Mono', serif;
+    font-weight: 400;
+    font-size: 20px;
   }
 
   a:hover {

@@ -8,11 +8,13 @@
           interest in typography and type design, both on paper and on the web. I am currently
           studying Design Studies at RMIT University Hanoi.
         </p>
-        <a
-          href="https://www.instagram.com/khooi.tran/"
-          target="_blank">Instagram &gt;</a
-        >
-        <a href="mailto:khooi.tr@gmail.com/">Email &gt;</a>
+        <button>
+          <a
+            href="https://www.instagram.com/khooi.tran/"
+            target="_blank">Instagram &gt;</a
+          >
+        </button>
+        <button><a href="mailto:khooi.tr@gmail.com/">Email &gt;</a></button>
       </div>
       <p class="scroll">&darr; scroll &darr;</p>
     </div>
@@ -31,8 +33,9 @@
     grid-template-areas: 'none content';
     grid-template-columns: 1fr 3fr;
     gap: 20px;
-    width: 99vw;
+    width: 98vw;
     height: 98vh;
+    margin-bottom: 136px;
   }
 
   h1 {
@@ -67,6 +70,14 @@
     margin: 0;
     padding: 0;
     margin-bottom: 36px;
+  }
+
+  button {
+    padding: 0;
+    margin: 0;
+    border-style: none;
+    background: white;
+    display: block;
   }
 
   a {
