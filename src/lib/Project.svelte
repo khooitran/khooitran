@@ -62,6 +62,7 @@
   }
 
   p {
+    font-family: 'IBM Plex Mono';
     font-size: 20px;
     margin: 0;
     margin-right: 36px;

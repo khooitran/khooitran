@@ -1,20 +1,16 @@
+<script>
+  let { title, description } = $props();
+</script>
+
 <section class="hero-section">
+  <div class="buffer"></div>
   <div class="content">
-    <h1>Khoi Tran</h1>
+    <h1>{title}</h1>
     <div class="description">
       <div>
         <p>
-          Hi! I am an aspiring creative developer and designer based in Hanoi, Vietnam. I have an
-          interest in typography and type design, both on paper and on the web. I am currently
-          studying Design Studies at RMIT University Hanoi.
+          {description}
         </p>
-        <button>
-          <a
-            href="https://www.instagram.com/khooi.tran/"
-            target="_blank">Instagram &gt;</a
-          >
-        </button>
-        <button><a href="mailto:khooi.tr@gmail.com/">Email &gt;</a></button>
       </div>
       <p class="scroll">&darr; scroll &darr;</p>
     </div>
@@ -23,41 +19,38 @@
 
 <style>
   h1,
-  p,
-  a {
+  p {
     font-family: 'IBM Plex Mono', serif;
   }
 
   .hero-section {
-    display: grid;
-    grid-template-areas: 'none content';
-    grid-template-columns: 1fr 3fr;
-    gap: 20px;
+    display: flex;
     width: 98vw;
     height: 98vh;
     margin-bottom: 136px;
   }
 
+  .buffer {
+    flex: 1;
+  }
+
   h1 {
     font-weight: 900;
-    font-size: 128px;
+    font-size: 136px;
+    flex: 1;
     margin: 0;
     padding: 0;
-    grid-area: 'title';
   }
 
   .content {
-    grid-area: content;
-    display: grid;
-    gap: 20px;
-    grid-template-rows: 1fr 4fr;
-    grid-template-areas:
-      'title'
-      'description';
+    flex: 3;
+    display: flex;
+    flex-direction: column;
     height: 98vh;
   }
 
   .description {
+    flex: 4;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -66,30 +59,10 @@
   p {
     font-weight: 400;
     font-size: 36px;
-    width: 66%;
+    width: 70%;
     margin: 0;
     padding: 0;
     margin-bottom: 36px;
-  }
-
-  button {
-    padding: 0;
-    margin: 0;
-    border-style: none;
-    background: white;
-    display: block;
-  }
-
-  a {
-    color: black;
-    text-decoration: none;
-    font-size: 36px;
-    display: block;
-  }
-
-  a:hover {
-    color: #ffcc33;
-    text-decoration: underline;
   }
 
   .scroll {

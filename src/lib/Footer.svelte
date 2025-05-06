@@ -1,5 +1,6 @@
 <footer>
-  <p>&uarr; Thanks for having a look! &uarr;</p>
+  <div></div>
+  <p>&uarr; thanks! &uarr;</p>
 </footer>
 
 <style>
@@ -7,16 +8,21 @@
     margin: 0;
     padding: 0;
     padding-top: 120px;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-areas: 'none footer';
+    display: flex;
+  }
+
+  div {
+    flex: 1;
+    padding: 0;
+    margin: 0;
   }
 
   p {
+    font-family: 'IBM Plex Mono';
     margin: 0;
     padding: 0;
     padding-bottom: 10px;
-    grid-area: footer;
+    flex: 3;
     font-size: 36px;
   }
 </style>
