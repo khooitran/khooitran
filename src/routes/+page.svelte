@@ -1,4 +1,5 @@
 <script>
+  import Footer from '$lib/Footer.svelte';
   import HeroSection from '$lib/HeroSection.svelte';
   import Project from '$lib/Project.svelte';
 
@@ -33,7 +34,10 @@
 <HeroSection
   title="Khoi Tran"
   description="Hi! I am currently studying and practicing UX Design & Development in Hanoi, Vietnam. I have an interest in practical, functional, and logical designs, regardless of style, shape, or form. I am set to graduate in April 2026 with a Bachelor's in Design Studies from RMIT University Hanoi."
+  endNote="&darr; scroll &darr;"
 />
 {#each projects as project, i}
   <Project {...project} />
 {/each}
+
+<Footer message="the journey started here!" />

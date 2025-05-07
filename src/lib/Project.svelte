@@ -21,7 +21,8 @@
 
 <style>
   section {
-    margin-bottom: 136px;
+    margin-bottom: 68px;
+    margin-top: 68px;
     margin-right: 20px;
     display: grid;
     grid-template-columns: 1fr 3fr;

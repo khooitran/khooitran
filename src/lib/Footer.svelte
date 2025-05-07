@@ -1,6 +1,10 @@
+<script>
+  let { message } = $props();
+</script>
+
 <footer>
   <div></div>
-  <p>&uarr; thanks! &uarr;</p>
+  <p>&uarr; {message} &uarr;</p>
 </footer>
 
 <style>

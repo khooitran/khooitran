@@ -1,5 +1,5 @@
 <script>
-  let { title, description } = $props();
+  let { title, description, endNote } = $props();
 </script>
 
 <section class="hero-section">
@@ -9,10 +9,10 @@
     <div class="description">
       <div>
         <p>
-          {description}
+          {@html description}
         </p>
       </div>
-      <p class="scroll">&darr; scroll &darr;</p>
+      <p class="end-note">{@html endNote}</p>
     </div>
   </div>
 </section>
@@ -27,7 +27,6 @@
     display: flex;
     width: 98vw;
     height: 98vh;
-    margin-bottom: 136px;
   }
 
   .buffer {
@@ -65,7 +64,7 @@
     margin-bottom: 36px;
   }
 
-  .scroll {
+  .end-note {
     margin-bottom: 15px;
   }
 </style>
