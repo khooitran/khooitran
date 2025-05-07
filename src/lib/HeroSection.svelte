@@ -64,6 +64,21 @@
     margin-bottom: 36px;
   }
 
+  .description :global {
+    a {
+      color: black;
+      text-decoration: none;
+      font-family: 'IBM Plex Mono', serif;
+      font-weight: 400;
+      font-size: 36px;
+    }
+
+    a:hover {
+      color: #ffcc33;
+      text-decoration: underline;
+    }
+  }
+
   .end-note {
     margin-bottom: 15px;
   }
