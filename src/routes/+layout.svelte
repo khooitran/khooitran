@@ -2,11 +2,14 @@
   import Navbar from '$lib/Navbar.svelte';
   import { page } from '$app/state';
   import { fly } from 'svelte/transition';
+  import Language from '$lib/Language.svelte';
 
   let { children } = $props();
+  let lang = $state('en');
 </script>
 
 <main>
+  <Language {lang} />
   <Navbar />
 
   {#key page.url.pathname}

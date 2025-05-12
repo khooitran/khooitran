@@ -6,7 +6,9 @@
   <div class="container">
     <button>
       <a {href}>
-        <h2>{title} &gt;</h2>
+        <h2>
+          {title}
+        </h2>
       </a>
     </button>
     <div class="flexbox">
