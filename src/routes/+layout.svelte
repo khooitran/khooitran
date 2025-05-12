@@ -34,9 +34,4 @@
     height: 98vh;
     overflow-x: hidden;
   }
-
-  p {
-    position: absolute;
-    top: 50px;
-  }
 </style>
