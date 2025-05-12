@@ -1,10 +1,21 @@
+<script>
+  import { currentLanguage } from './stores/language';
+</script>
+
 <section>
   <div></div>
   <nav>
-    <button><a href="/">Home &gt;</a></button>
-    <button><a href="/archive">Archive &gt;</a></button>
-    <button><a href="/contact">Contact &gt;</a></button>
-    <button><a href="/credits">Credits &gt;</a></button>
+    {#if currentLanguage === 'en'}
+      <button><a href="/">Home &gt;</a></button>
+      <button><a href="/archive">Archive &gt;</a></button>
+      <button><a href="/contact">Contact &gt;</a></button>
+      <button><a href="/credits">Credits &gt;</a></button>
+    {:else}
+      <button><a href="/">Trang chủ &gt;</a></button>
+      <button><a href="/archive">Kho lưu trữ &gt;</a></button>
+      <button><a href="/contact">Liên hệ &gt;</a></button>
+      <button><a href="/credits">Danh đề &gt;</a></button>
+    {/if}
   </nav>
 </section>
 
