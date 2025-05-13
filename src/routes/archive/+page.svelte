@@ -1,9 +1,11 @@
 <script>
   import HeroSection from '$lib/HeroSection.svelte';
+  import { archive } from '$lib/stores/content';
+  import { currentLanguage } from '$lib/stores/language';
 </script>
 
-<HeroSection
-  title="Archive"
-  description="This page is home to the various experiments, explorations, tests, discontinued projects, side projects, and everything else from me that is related. Hopefully one of these will come in handy in a later project."
-  endNote="&uarr; Nothing just yet... &uarr;"
-/>
+{#if currentLanguage === 'en'}
+  <HeroSection {...archive.en} />
+{:else}
+  <HeroSection {...archive.vi} />
+{/if}
