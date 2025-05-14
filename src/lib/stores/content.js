@@ -66,7 +66,7 @@ export const projects = {
         'VietType is a magazine that focuses on type design in Vietnam. Through interviews and conversations from type designers and researchers in the current scene, the reader gets a closer look into the type community in Vietnam, and the stories behind each typeface and their creator. As a personal response, VietType Sans - a set of 26 lowercase characters - is my own attempt at designing a typeface.',
       src: 'viettype.gif',
       alt: 'VietType Magazine preview',
-      href: '/viettype',
+      href: '/works/viettype',
     },
     {
       title: 'Website: NUNG (2024)',
@@ -74,7 +74,7 @@ export const projects = {
         'NUNG Exhibition is the first of its kind: a showcase of the graduation projects of the students of Design Studies in RMIT University Hanoi. I was very glad to be able to work with my friends from first year to make a website that serves as an archive for the exhibition as well as the works of everyone. While the physical exhibition has ended, the website hopes to give future enthusiasts a chance to take a look at the beautiful works of the students in RMIT.',
       src: 'nung.gif',
       alt: 'NUNG Exhibition website preview',
-      href: '/nungexhibition',
+      href: '/works/nungexhibition',
     },
     {
       title: 'Website: Baviett (2023)',
@@ -82,7 +82,7 @@ export const projects = {
         'Ba Viet asked me to create a portfolio for him in half a day. While the timeframe was limited, I tried to create something that would be functionally helpful for him as that was the most important aspect of the portfolio. So far, it has not disappointed him! The website marks my first job as a student designer and developer, and gives me the boost every time I looked at it.',
       src: 'baviet.gif',
       alt: 'NUNG Exhibition website',
-      href: 'baviett',
+      href: '/works/baviett',
     },
   ],
   vi: [
@@ -92,7 +92,7 @@ export const projects = {
         'ViệtType là một quyển tạp chí với nội dung xoay quanh chủ đề thiết kế chữ tại Việt Nam. Qua các buổi phỏng vấn và trò chuyện cùng các nhà thiết kế và nghiên cứu chữ, cuốn tạp chí mang đến cho người đọc một góc nhìn sâu sắc hơn về cộng đồng thiết kế chữ tại Việt Nam, và những câu chuyện đằng sau những bộ chữ Việt. Ngoài ra, bộ chữ VietType Sans gồm 26 ký tự thường là một bộ chữ thử nghiệm cho những nghiên cứu được đúc kết ra từ dự án này.',
       src: 'viettype.gif',
       alt: 'VietType Magazine preview',
-      href: '/viettype',
+      href: '/works/viettype',
     },
     {
       title: 'Website: NUNG (2024)',
@@ -100,7 +100,7 @@ export const projects = {
         'Triển lãm NUNG là triển lãm đầu tiên của các sinh viên Thiết kế Ứng dụng Sáng tạo tại RMIT Hà Nội. Mình rất vui khi được làm việc cùng những người bạn của mình để tạo ra một trang web có thể lưu giữ lại triển lãm cũng như đồ án của các bạn. Tuy rằng triển lãm vật lý đã kết thúc, mong rằng trang web sẽ có thể giữ được tinh thần cũng như vẻ đẹp của những sản phẩm mà chính những sinh viên RMIT tạo ra.',
       src: 'nung.gif',
       alt: 'NUNG Exhibition website preview',
-      href: '/nungexhibition',
+      href: '/works/nungexhibition',
     },
     {
       title: 'Website: Bá Việt (2023)',
@@ -108,7 +108,7 @@ export const projects = {
         "Anh Bá Việt có hỏi mình 'làm được portfolio cho anh mai xong không?'. Cho dù mình gặp nhiều khó khăn về mặt thời gian, mình cố gắng tạo ra một trang web đủ dùng, vì đó chính là yếu tố quan trọng nhất. Cho đến bây giờ, trang web vẫn được anh Bá Việt sử dụng hàng ngày. Đây là dự án đầu tiên của mình với vai trò thiết kế và lập trình viên, và cũng là động lực để mình tiếp tục phấn đấu hàng ngày.",
       src: 'baviet.gif',
       alt: 'NUNG Exhibition website',
-      href: 'baviett',
+      href: '/works/baviett',
     },
   ],
 };
