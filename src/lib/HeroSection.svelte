@@ -25,12 +25,13 @@
 
   .hero-section {
     display: flex;
-    width: 98vw;
-    height: 98vh;
+    width: 97vw;
+    height: 97vh;
   }
 
   .buffer {
     flex: 1;
+    height: 100%;
   }
 
   h1 {
@@ -45,7 +46,7 @@
     flex: 3;
     display: flex;
     flex-direction: column;
-    height: 98vh;
+    height: 100%;
   }
 
   .description {
@@ -61,7 +62,6 @@
     width: 70%;
     margin: 0;
     padding: 0;
-    margin-bottom: 36px;
   }
 
   .description :global {
@@ -81,5 +81,21 @@
 
   .end-note {
     margin-bottom: 15px;
+  }
+
+  @media only screen and (max-width: 1280px) {
+    h1 {
+      font-size: 96px;
+    }
+
+    p {
+      font-size: 24px;
+    }
+
+    .description :global {
+      a {
+        font-size: 24px;
+      }
+    }
   }
 </style>

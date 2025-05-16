@@ -31,7 +31,8 @@
 
 <style>
   main {
-    height: 98vh;
+    height: 97vh;
     overflow-x: hidden;
+    overflow-y: auto;
   }
 </style>

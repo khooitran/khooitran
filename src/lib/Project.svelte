@@ -35,6 +35,7 @@
 
   .flexbox {
     display: flex;
+    align-items: start;
   }
 
   button {
@@ -71,5 +72,13 @@
 
   img {
     width: 66%;
+    aspect-ratio: 16/9;
+    object-fit: contain;
+  }
+
+  @media only screen and (max-width: 1280px) {
+    p {
+      font-size: 14px;
+    }
   }
 </style>

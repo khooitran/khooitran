@@ -59,4 +59,10 @@
     color: #ffcc33;
     text-decoration: underline;
   }
+
+  @media only screen and (max-width: 1280px) {
+    a {
+      font-size: 24px;
+    }
+  }
 </style>
