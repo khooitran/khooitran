@@ -39,6 +39,7 @@
     border-style: none;
     background: white;
     display: block;
+    text-align: start;
   }
 
   h2 {

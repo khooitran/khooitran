@@ -13,7 +13,7 @@
 <style>
   button {
     position: absolute;
-    bottom: 2vh;
+    bottom: 2.25vh;
     left: 20px;
     padding: 0;
     margin: 0;
