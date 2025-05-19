@@ -79,10 +79,6 @@
     }
   }
 
-  .end-note {
-    margin-bottom: 15px;
-  }
-
   @media only screen and (max-width: 1280px) {
     h1 {
       font-size: 96px;

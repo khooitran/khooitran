@@ -33,11 +33,6 @@
     grid-area: content;
   }
 
-  .flexbox {
-    display: flex;
-    align-items: start;
-  }
-
   button {
     padding: 0;
     margin: 0;
@@ -63,17 +58,22 @@
     text-decoration: underline;
   }
 
+  .flexbox {
+    display: flex;
+    align-items: start;
+  }
+
   p {
     font-family: 'IBM Plex Mono';
     font-size: 20px;
     margin: 0;
     margin-right: 36px;
+    flex: 1;
   }
 
   img {
+    flex: 2;
     width: 66%;
-    aspect-ratio: 16/9;
-    object-fit: contain;
   }
 
   @media only screen and (max-width: 1280px) {
