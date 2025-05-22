@@ -1,18 +1,18 @@
 <script>
-  import { currentLanguage } from './stores/language';
+  import { currentLanguage } from "./stores/language";
 </script>
 
 <section>
   <div></div>
   <nav>
-    {#if currentLanguage === 'en'}
+    {#if currentLanguage === "en"}
       <button><a href="/">Home &gt;</a></button>
       <button><a href="/archive">Archive &gt;</a></button>
       <button><a href="/contact">Contact &gt;</a></button>
       <button><a href="/credits">Credits &gt;</a></button>
     {:else}
       <button><a href="/">Trang chủ &gt;</a></button>
-      <button><a href="/archive">Kho lưu trữ &gt;</a></button>
+      <button><a href="/archive">Lưu trữ &gt;</a></button>
       <button><a href="/contact">Liên hệ &gt;</a></button>
       <button><a href="/credits">Danh đề &gt;</a></button>
     {/if}
@@ -50,7 +50,7 @@
   a {
     color: black;
     text-decoration: none;
-    font-family: 'IBM Plex Mono', serif;
+    font-family: "IBM Plex Mono", serif;
     font-weight: 400;
     font-size: 36px;
   }
@@ -62,7 +62,19 @@
 
   @media only screen and (max-width: 1280px) {
     a {
+      font-size: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    a {
       font-size: 24px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    section {
+      left: -25vw;
     }
   }
 </style>

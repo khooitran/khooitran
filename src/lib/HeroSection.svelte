@@ -20,7 +20,7 @@
 <style>
   h1,
   p {
-    font-family: 'IBM Plex Mono', serif;
+    font-family: "IBM Plex Mono", serif;
   }
 
   .hero-section {
@@ -68,7 +68,7 @@
     a {
       color: black;
       text-decoration: none;
-      font-family: 'IBM Plex Mono', serif;
+      font-family: "IBM Plex Mono", serif;
       font-weight: 400;
       font-size: 36px;
     }
@@ -81,6 +81,22 @@
 
   @media only screen and (max-width: 1280px) {
     h1 {
+      font-size: 124px;
+    }
+
+    p {
+      font-size: 30px;
+    }
+
+    .description :global {
+      a {
+        font-size: 30px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    h1 {
       font-size: 96px;
     }
 
@@ -92,6 +108,16 @@
       a {
         font-size: 24px;
       }
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .buffer {
+      display: none;
+    }
+
+    .hero-section {
+      margin-left: 30px;
     }
   }
 </style>

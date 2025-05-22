@@ -2,13 +2,13 @@ export const homepage = {
   en: {
     title: 'Khoi Tran',
     description:
-      "Hi! I am currently studying and practicing UX Design & Development in Hanoi, Vietnam. I have an interest in practical, functional, and logical designs, regardless of style, shape, or form. I am set to graduate in April 2026 with a Bachelor's in Design Studies from RMIT University Hanoi.",
+      "Hi! I am currently studying and practicing Design & Development in Hanoi, Vietnam. I have an interest in practical, functional, and logical designs, regardless of style, shape, or form. I am set to graduate in April 2026 with a Bachelor's in Design Studies from RMIT University Hanoi.",
     endNote: '&darr; scroll &darr;',
   },
   vi: {
     title: 'Khôi Trần',
     description:
-      'Xin chào! Mình hiện đang học tập và thực hành thiết kế và lập trình UX tại Hà Nội, Việt Nam. Mình rất thích các thiết kế mang tính thực tiễn, ứng dụng, và logic, ở bất kể hình thức nào. Mình sẽ tốt nghiệp đại học RMIT Hà Nội với bằng Cử nhân Thiết kế Ứng dụng Sáng Tạo vào tháng 4 năm 2026.',
+      'Xin chào! Mình hiện đang học tập và thực hành Thiết kế & Lập trình tại Hà Nội, Việt Nam. Mình rất thích các thiết kế mang tính thực tiễn, ứng dụng, và logic, ở bất kể hình thức nào. Mình sẽ tốt nghiệp đại học RMIT Hà Nội với bằng Cử nhân Thiết kế Ứng dụng Sáng Tạo vào tháng 4 năm 2026.',
     endNote: '&darr; kéo xuống &darr;',
   },
 };
@@ -21,7 +21,7 @@ export const archive = {
     endNote: '&uarr; Nothing just yet... &uarr;',
   },
   vi: {
-    title: 'Kho lưu trữ',
+    title: 'Lưu trữ',
     description:
       'Trang này bao gồm các dự án thử nghiệm và ngoài lề, cũng như các thí nghiệm và nghiên cứu nhỏ liên quan tới thiết kế và lập trình. Mong rằng những dự án nhỏ này sẽ có ích trong tương lai không xa.',
     endNote: '&uarr; Chưa có gì cả... &uarr;',

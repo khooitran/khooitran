@@ -12,6 +12,7 @@
     margin: 0;
     padding: 0;
     padding-top: 120px;
+    margin-bottom: 1vh;
     display: flex;
   }
 

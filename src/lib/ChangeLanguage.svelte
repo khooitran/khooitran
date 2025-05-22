@@ -1,9 +1,9 @@
 <script>
-  import { currentLanguage, changeCurrentLanguage } from './stores/language';
+  import { currentLanguage, changeCurrentLanguage } from "./stores/language";
   let { lang = $bindable(currentLanguage) } = $props();
 
   function changeLanguage() {
-    lang = lang === 'en' ? 'vi' : 'en';
+    lang = lang === "en" ? "vi" : "en";
     changeCurrentLanguage();
   }
 </script>
@@ -21,7 +21,7 @@
     background: white;
     display: block;
     text-align: left;
-    font-family: 'IBM Plex Mono', serif;
+    font-family: "IBM Plex Mono", serif;
     font-weight: 400;
     font-size: 36px;
   }
@@ -33,7 +33,19 @@
 
   @media only screen and (max-width: 1280px) {
     button {
+      font-size: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    button {
       font-size: 24px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    button {
+      left: -25vh;
     }
   }
 </style>
