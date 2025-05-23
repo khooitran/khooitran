@@ -117,7 +117,7 @@
     }
 
     .hero-section {
-      margin-left: 30px;
+      margin-left: 26px;
     }
   }
 </style>

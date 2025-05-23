@@ -1,8 +1,10 @@
 <script>
   import { currentLanguage } from "./stores/language";
+
+  let { menuOpen = $bindable() } = $props();
 </script>
 
-<section>
+<section class={menuOpen ? "menu-open" : ""}>
   <div></div>
   <nav>
     {#if currentLanguage === "en"}
@@ -20,12 +22,19 @@
 </section>
 
 <style>
+  .menu-open {
+    left: 30px;
+    display: flex;
+  }
+
   section {
     position: fixed;
     left: 20px;
     display: flex;
     flex-direction: column;
     height: 98vh;
+    background-color: #ffffff;
+    z-index: 1;
   }
 
   div {
@@ -45,14 +54,14 @@
     background: white;
     display: block;
     text-align: left;
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 400;
+    font-size: 36px;
   }
 
   a {
     color: black;
     text-decoration: none;
-    font-family: "IBM Plex Mono", serif;
-    font-weight: 400;
-    font-size: 36px;
   }
 
   a:hover {
@@ -61,20 +70,22 @@
   }
 
   @media only screen and (max-width: 1280px) {
-    a {
+    button {
       font-size: 30px;
     }
   }
 
   @media only screen and (max-width: 1024px) {
-    a {
+    button {
       font-size: 24px;
     }
   }
 
   @media only screen and (max-width: 768px) {
     section {
-      left: -25vw;
+      left: 100vw;
+      width: 100vw;
+      display: none;
     }
   }
 </style>
