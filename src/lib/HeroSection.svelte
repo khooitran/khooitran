@@ -20,7 +20,7 @@
 <style>
   h1,
   p {
-    font-family: "IBM Plex Mono", serif;
+    font-family: 'IBM Plex Mono', serif;
   }
 
   .hero-section {
@@ -68,7 +68,7 @@
     a {
       color: black;
       text-decoration: none;
-      font-family: "IBM Plex Mono", serif;
+      font-family: 'IBM Plex Mono', serif;
       font-weight: 400;
       font-size: 36px;
     }
@@ -117,7 +117,7 @@
     }
 
     .hero-section {
-      margin-left: 26px;
+      margin-left: 20px;
     }
   }
 </style>

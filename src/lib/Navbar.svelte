@@ -1,29 +1,33 @@
 <script>
-  import { currentLanguage } from "./stores/language";
+  import { currentLanguage } from './stores/language';
 
   let { menuOpen = $bindable() } = $props();
+
+  function toggleMenu() {
+    menuOpen = menuOpen ? false : true;
+  }
 </script>
 
-<section class={menuOpen ? "menu-open" : ""}>
+<section class={menuOpen ? 'menu-open' : ''}>
   <div></div>
   <nav>
-    {#if currentLanguage === "en"}
-      <button><a href="/">Home &gt;</a></button>
-      <button><a href="/archive">Archive &gt;</a></button>
-      <button><a href="/contact">Contact &gt;</a></button>
-      <button><a href="/credits">Credits &gt;</a></button>
+    {#if currentLanguage === 'en'}
+      <button onclick={toggleMenu}><a href="/">Home &gt;</a></button>
+      <button onclick={toggleMenu}><a href="/archive">Archive &gt;</a></button>
+      <button onclick={toggleMenu}><a href="/contact">Contact &gt;</a></button>
+      <button onclick={toggleMenu}><a href="/credits">Credits &gt;</a></button>
     {:else}
-      <button><a href="/">Trang chủ &gt;</a></button>
-      <button><a href="/archive">Lưu trữ &gt;</a></button>
-      <button><a href="/contact">Liên hệ &gt;</a></button>
-      <button><a href="/credits">Danh đề &gt;</a></button>
+      <button onclick={toggleMenu}><a href="/">Trang chủ &gt;</a></button>
+      <button onclick={toggleMenu}><a href="/archive">Lưu trữ &gt;</a></button>
+      <button onclick={toggleMenu}><a href="/contact">Liên hệ &gt;</a></button>
+      <button onclick={toggleMenu}><a href="/credits">Danh đề &gt;</a></button>
     {/if}
   </nav>
 </section>
 
 <style>
   .menu-open {
-    left: 30px;
+    left: 20px;
     display: flex;
   }
 
@@ -54,7 +58,7 @@
     background: white;
     display: block;
     text-align: left;
-    font-family: "IBM Plex Mono", serif;
+    font-family: 'IBM Plex Mono', serif;
     font-weight: 400;
     font-size: 36px;
   }
