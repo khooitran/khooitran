@@ -1,5 +1,5 @@
 <script>
-  import { currentLanguage } from './stores/language';
+  import { currentLanguage } from "./stores/language";
 
   let { menuOpen = $bindable() } = $props();
 
@@ -8,10 +8,10 @@
   }
 </script>
 
-<section class={menuOpen ? 'menu-open' : ''}>
+<section class={menuOpen ? "menu-open" : ""}>
   <div></div>
   <nav>
-    {#if currentLanguage === 'en'}
+    {#if currentLanguage === "en"}
       <button onclick={toggleMenu}><a href="/">Home &gt;</a></button>
       <button onclick={toggleMenu}><a href="/archive">Archive &gt;</a></button>
       <button onclick={toggleMenu}><a href="/contact">Contact &gt;</a></button>
@@ -26,14 +26,10 @@
 </section>
 
 <style>
-  .menu-open {
-    left: 20px;
-    display: flex;
-  }
-
   section {
     position: fixed;
-    left: 20px;
+    left: 0;
+    padding-left: 20px;
     display: flex;
     flex-direction: column;
     height: 98vh;
@@ -58,9 +54,10 @@
     background: white;
     display: block;
     text-align: left;
-    font-family: 'IBM Plex Mono', serif;
+    font-family: "IBM Plex Mono", serif;
     font-weight: 400;
     font-size: 36px;
+    cursor: pointer;
   }
 
   a {
@@ -88,8 +85,19 @@
   @media only screen and (max-width: 768px) {
     section {
       left: 100vw;
-      width: 100vw;
-      display: none;
+      width: 50vw;
+      visibility: hidden;
+      transition:
+        left 360ms ease-in-out,
+        visibility 0s linear 360ms;
+    }
+
+    .menu-open {
+      left: 50vw;
+      visibility: visible;
+      transition:
+        left 360ms ease-in-out,
+        visibility 0s linear;
     }
   }
 </style>
