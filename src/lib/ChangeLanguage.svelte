@@ -1,15 +1,18 @@
 <script>
-  import { currentLanguage, changeCurrentLanguage } from "./stores/language";
+  import { currentLanguage, changeCurrentLanguage } from './stores/language';
   let { lang = $bindable(currentLanguage), menuOpen = $bindable() } = $props();
 
   function changeLanguage() {
-    lang = lang === "en" ? "vi" : "en";
+    lang = lang === 'en' ? 'vi' : 'en';
     changeCurrentLanguage();
     menuOpen = menuOpen ? false : true;
   }
 </script>
 
-<button class={menuOpen ? "menu-open" : ""} onclick={changeLanguage}>
+<button
+  class={menuOpen ? 'menu-open' : ''}
+  onclick={changeLanguage}
+>
   EN/VI &gt;
 </button>
 
@@ -24,7 +27,7 @@
     background: white;
     display: block;
     text-align: left;
-    font-family: "IBM Plex Mono", serif;
+    font-family: 'IBM Plex Mono', serif;
     font-weight: 400;
     font-size: 36px;
     z-index: 1;
@@ -51,18 +54,11 @@
     button {
       left: 100vw;
       width: 136px;
-      visibility: hidden;
-      transition:
-        left 360ms ease-in-out,
-        visibility 0s linear 360ms;
+      transition: left 360ms ease-in-out;
     }
 
     .menu-open {
       left: 50vw;
-      visibility: visible;
-      transition:
-        left 360ms ease-in-out,
-        visibility 0s linear;
     }
   }
 </style>

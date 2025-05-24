@@ -32,7 +32,23 @@
 
   @media only screen and (max-width: 1280px) {
     p {
+      font-size: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 1080px) {
+    p {
       font-size: 24px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    div {
+      display: none;
+    }
+
+    footer {
+      margin: 20px;
     }
   }
 </style>

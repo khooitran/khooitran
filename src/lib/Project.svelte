@@ -3,6 +3,7 @@
 </script>
 
 <section>
+  <div class="buffer"></div>
   <div class="container">
     <button>
       <a {href}>
@@ -11,7 +12,10 @@
     </button>
     <div class="flexbox">
       <p>{description}</p>
-      <img {src} {alt} />
+      <img
+        {src}
+        {alt}
+      />
     </div>
   </div>
 </section>
@@ -19,13 +23,15 @@
 <style>
   section {
     margin: 100px 20px 100px 0;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-areas: "none content";
+    display: flex;
+  }
+
+  .buffer {
+    flex: 1;
   }
 
   .container {
-    grid-area: content;
+    flex: 3;
   }
 
   button {
@@ -39,7 +45,7 @@
 
   h2 {
     font-size: 48px;
-    font-family: "IBM Plex Mono", "serif";
+    font-family: 'IBM Plex Mono', 'serif';
   }
 
   a {
@@ -60,7 +66,7 @@
   }
 
   p {
-    font-family: "IBM Plex Mono";
+    font-family: 'IBM Plex Mono';
     font-size: 20px;
     margin: 0;
     margin-right: 36px;
@@ -75,6 +81,26 @@
   @media only screen and (max-width: 1280px) {
     p {
       font-size: 16px;
+    }
+  }
+
+  @media only screen and (max-width: 1080px) {
+    p {
+      font-size: 14px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .buffer {
+      display: none;
+    }
+
+    section {
+      margin: 20px;
+    }
+
+    h2 {
+      font-size: 36px;
     }
   }
 </style>
