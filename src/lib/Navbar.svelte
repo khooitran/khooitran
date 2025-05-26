@@ -1,5 +1,5 @@
 <script>
-  import { currentLanguage } from './stores/language';
+  import { currentLanguage } from "./stores/language";
 
   let { menuOpen = $bindable() } = $props();
 
@@ -8,10 +8,10 @@
   }
 </script>
 
-<section class={menuOpen ? 'menu-open' : ''}>
+<section class={menuOpen ? "menu-open" : ""}>
   <div></div>
   <nav>
-    {#if currentLanguage === 'en'}
+    {#if currentLanguage === "en"}
       <button onclick={toggleMenu}><a href="/">Home &gt;</a></button>
       <button onclick={toggleMenu}><a href="/archive">Archive &gt;</a></button>
       <button onclick={toggleMenu}><a href="/contact">Contact &gt;</a></button>
@@ -54,7 +54,7 @@
     background: white;
     display: block;
     text-align: left;
-    font-family: 'IBM Plex Mono', serif;
+    font-family: "IBM Plex Mono", serif;
     font-weight: 400;
     font-size: 36px;
     cursor: pointer;
@@ -85,12 +85,18 @@
   @media only screen and (max-width: 768px) {
     section {
       left: 100vw;
-      width: 50vw;
+      width: 75vw;
       transition: left 360ms ease-in-out;
     }
 
     .menu-open {
       left: 50vw;
+    }
+  }
+
+  @media only screen and (max-width: 576px) {
+    .menu-open {
+      left: 25vw;
     }
   }
 </style>

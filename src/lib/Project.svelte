@@ -12,17 +12,15 @@
     </button>
     <div class="flexbox">
       <p>{description}</p>
-      <img
-        {src}
-        {alt}
-      />
+      <img {src} {alt} />
     </div>
   </div>
 </section>
 
 <style>
   section {
-    margin: 100px 20px 100px 0;
+    margin-right: 20px;
+    padding: 69px 0;
     display: flex;
   }
 
@@ -45,7 +43,7 @@
 
   h2 {
     font-size: 48px;
-    font-family: 'IBM Plex Mono', 'serif';
+    font-family: "IBM Plex Mono", "serif";
   }
 
   a {
@@ -66,7 +64,7 @@
   }
 
   p {
-    font-family: 'IBM Plex Mono';
+    font-family: "IBM Plex Mono";
     font-size: 20px;
     margin: 0;
     margin-right: 36px;
