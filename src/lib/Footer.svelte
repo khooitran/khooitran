@@ -23,7 +23,7 @@
   }
 
   p {
-    font-family: 'IBM Plex Mono';
+    font-family: "IBM Plex Mono";
     margin: 0;
     padding: 0;
     flex: 3;
@@ -48,7 +48,13 @@
     }
 
     footer {
-      margin: 20px;
+      margin-left: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    p {
+      font-size: 5vw;
     }
   }
 </style>

@@ -32,13 +32,13 @@ export const contact = {
   en: {
     title: 'Contact',
     description:
-      "Let's connect!<br />You can reach me through:<br /><br />Email: <a href='mailto:khooi.tr@gmail.com'>khooi.tr@gmail.com &gt;</a><br />Instagram: <a href='https://www.instagram.com/khooi.tran/' target='_blank'>@khooi.tran &gt;",
+      "Let's connect!<br />You can reach me through:<br /><br />Email: <a href='mailto:khooi.tr@gmail.com'>khooi.tr@gmail.com</a><br />Instagram: <a href='https://www.instagram.com/khooi.tran/' target='_blank'>@khooi.tran",
     endNote: "&uarr; let's work together! &uarr;",
   },
   vi: {
     title: 'Liên hệ',
     description:
-      "Mong được làm việc cùng bạn!<br />Hãy liên hệ với mình qua:<br /><br /> Email: <a href='mailto:khooi.tr@gmail.com'>khooi.tr@gmail.com &gt;</a><br />Instagram: <a href='https://www.instagram.com/khooi.tran/' target='_blank'>@khooi.tran &gt;",
+      "Mong được làm việc cùng bạn!<br />Hãy liên hệ với mình qua:<br /><br /> Email: <a href='mailto:khooi.tr@gmail.com'>khooi.tr@gmail.com</a><br />Instagram: <a href='https://www.instagram.com/khooi.tran/' target='_blank'>@khooi.tran",
     endNote: '&uarr; Hẹn gặp bạn nhé! &uarr;',
   },
 };
@@ -47,14 +47,14 @@ export const credits = {
   en: {
     title: 'Credits',
     description:
-      "This website was made using the little knowledge I have learning design at university, combined with the hands-on experience from self-learning front-end development.<br />My thanks to Effy for encouraging me in producing this website.<br /> <br />Typeface: <a href='https://fonts.google.com/specimen/IBM+Plex+Mono' target='_blank'>IBM Plex Mono &gt;</a><br />Frontend framework: <a href='https://svelte.dev/' target='_blank'>Svelte &gt;</a>",
-    endNote: '&uarr; thank you for visiting! &uarr;',
+      "This website was made using the little knowledge I have learning design at university, combined with the hands-on experience from self-learning front-end development.<br />My thanks to Effy for encouraging me in producing this website.<br /> <br />Typeface: <a href='https://fonts.google.com/specimen/IBM+Plex+Mono' target='_blank'>IBM Plex Mono</a><br />Frontend framework: <a href='https://svelte.dev/' target='_blank'>Svelte</a>",
+    endNote: '&uarr; thank you! &uarr;',
   },
   vi: {
     title: 'Danh đề',
     description:
-      "Trang web được làm với lượng kiến thức thiết kế nhỏ nhoi mình học được ở đại học, cộng với chút kinh nghiệm từ việc tự học lập trình front-end.<br />Cảm ơn Effy đã đồng hành trong suốt quá trình tạo ra trang web này.<br /> <br />Phông chữ: <a href='https://fonts.google.com/specimen/IBM+Plex+Mono' target='_blank'>IBM Plex Mono &gt;</a><br />Frontend framework: <a href='https://svelte.dev/' target='_blank'>Svelte &gt;</a>",
-    endNote: '&uarr; cảm ơn bạn đã ghé thăm! &uarr;',
+      "Trang web được làm với lượng kiến thức thiết kế nhỏ nhoi mình học được ở đại học, cộng với chút kinh nghiệm từ việc tự học lập trình front-end.<br />Cảm ơn Effy đã đồng hành trong suốt quá trình tạo ra trang web này.<br /> <br />Phông chữ: <a href='https://fonts.google.com/specimen/IBM+Plex+Mono' target='_blank'>IBM Plex Mono</a><br />Frontend framework: <a href='https://svelte.dev/' target='_blank'>Svelte</a>",
+    endNote: '&uarr; cảm ơn bạn! &uarr;',
   },
 };
 

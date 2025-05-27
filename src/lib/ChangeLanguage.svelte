@@ -50,7 +50,7 @@
   @media only screen and (max-width: 768px) {
     button {
       left: 100vw;
-      width: 136px;
+      width: 36vw;
       transition: left 360ms ease-in-out;
     }
 
@@ -62,6 +62,10 @@
   @media only screen and (max-width: 600px) {
     .menu-open {
       left: 25vw;
+    }
+
+    button {
+      font-size: 5vw;
     }
   }
 </style>

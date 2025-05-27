@@ -11,11 +11,11 @@
   {#each projects.en as project, i}
     <Project {...project} />
   {/each}
-  <Footer message="the journey started here!" />
+  <Footer message="it starts here!" />
 {:else}
   <HeroSection {...homepage.vi} />
   {#each projects.vi as project, i}
     <Project {...project} />
   {/each}
-  <Footer message="mọi thứ bắt đầu từ đây!" />
+  <Footer message="bắt đầu từ đây!" />
 {/if}

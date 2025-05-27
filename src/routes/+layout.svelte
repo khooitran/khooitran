@@ -50,7 +50,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    padding: 1vh 2vh 2vh 1.5vh;
+    padding: 0.5vh 2vh 2vh 1vh;
     margin: 0;
     border-style: none;
     background: white;
@@ -71,9 +71,9 @@
     }
   }
 
-  @media only screen and (max-width: 576px) {
+  @media only screen and (max-width: 600px) {
     .open-menu {
-      font-size: 30px;
+      font-size: 5.5vw;
     }
   }
 </style>

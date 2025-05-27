@@ -94,9 +94,13 @@
     }
   }
 
-  @media only screen and (max-width: 576px) {
+  @media only screen and (max-width: 600px) {
     .menu-open {
       left: 25vw;
+    }
+
+    button {
+      font-size: 5vw;
     }
   }
 </style>

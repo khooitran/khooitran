@@ -20,7 +20,7 @@
 <style>
   section {
     margin-right: 20px;
-    padding: 69px 0;
+    padding: 50px 0;
     display: flex;
   }
 
@@ -83,6 +83,9 @@
   }
 
   @media only screen and (max-width: 1080px) {
+    h2 {
+      font-size: 4.5vw;
+    }
     p {
       font-size: 14px;
     }
@@ -99,6 +102,25 @@
 
     h2 {
       font-size: 36px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .flexbox {
+      flex-direction: column-reverse;
+    }
+
+    h2 {
+      font-size: 5vw;
+    }
+
+    p {
+      padding-top: 36px;
+      width: 66vw;
+    }
+
+    img {
+      width: 90%;
     }
   }
 </style>
