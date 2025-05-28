@@ -12,7 +12,9 @@
     </button>
     <div class="flexbox">
       <p>{description}</p>
-      <img {src} {alt} />
+      <a {href}>
+        <img {src} {alt} />
+      </a>
     </div>
   </div>
 </section>
@@ -46,14 +48,14 @@
     font-family: "IBM Plex Mono", "serif";
   }
 
-  a {
+  button a {
     color: black;
     text-decoration: none;
     font-size: 36px;
     display: block;
   }
 
-  a:hover {
+  button a:hover {
     color: #ffcc33;
     text-decoration: underline;
   }
@@ -71,9 +73,12 @@
     flex: 1;
   }
 
-  img {
+  .flexbox a {
     flex: 2;
-    width: 66%;
+  }
+
+  img {
+    width: 100%;
   }
 
   @media only screen and (max-width: 1280px) {
@@ -115,11 +120,11 @@
     }
 
     p {
-      padding-top: 36px;
+      padding-top: 20px;
       width: 66vw;
     }
 
-    img {
+    .flexbox a {
       width: 90%;
     }
   }
