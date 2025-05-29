@@ -23,7 +23,7 @@ export const nung = {
   vi: {
     title: 'Website: NUNG',
     description:
-      'Dự án này xuất phát từ mong  muốn tạo ra một website triển lãm cho sản phẩm tốt nghiệp của những người bạn của mình. Dự án sử dụng branding của triển lãm vật lý được tổ chức tại đại học RMIT Hà Nội, và là sự kết hợp của thiết kế ứng dụng chữ, thiết kế trải nghiệm người dùng, và lập trình web.',
+      'Dự án này xuất phát từ mong muốn tạo ra một website triển lãm cho sản phẩm tốt nghiệp của những người bạn của mình. Dự án sử dụng branding của triển lãm vật lý được tổ chức tại đại học RMIT Hà Nội, và là sự kết hợp của thiết kế ứng dụng chữ, thiết kế trải nghiệm người dùng, và lập trình web.',
     endNote: '&darr; kéo xuống &darr;',
   },
 };
