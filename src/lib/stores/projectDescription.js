@@ -1,16 +1,35 @@
 export const viettype = {
   en: {
-    title: 'VietType',
-    description:
-      'This was a project to better understand typography and type design in Vietnam, for both myself and the public. Presented as a magazine, the project was a journey into the type design industry in Vietnam, featuring leading Vietnamese type designers.',
-    endNote: '&darr; scroll &darr;',
+    hero: {
+      title: 'VietType',
+      description:
+        'This was a project to better understand typography and type design in Vietnam, for both myself and the public. Presented as a magazine, the project was a journey into the type design industry in Vietnam, featuring leading Vietnamese type designers.',
+      endNote: '&darr; scroll &darr;',
+    },
+    details: {
+      description:
+        'This was a project to better understand typography and type design in Vietnam, for both myself and the public. Presented as a magazine, the project was a journey into the type design industry in Vietnam, featuring leading Vietnamese type designers.',
+      src: '../viettype.gif',
+      alt: 'something',
+    },
+    message: "thank you!"
   },
+
   vi: {
-    title: 'ViệtType',
-    description:
-      'VietType là một dự án để chính mình và mọi người có thể hiểu hơn về thiết kế ứng dụng chữ và thiết kế chữ tại Việt Nam. Cuốn tạp chí là hành trình khám phá ngành công nghiệp thiết kế chữ tại Việt Nam qua góc nhìn của những nhà thiết kế nổi bật nhất của cộng đồng tại nơi đây.',
-    endNote: '&darr; kéo xuống &darr;',
-  },
+    hero: {
+      title: 'ViệtType',
+      description:
+        'VietType là một dự án để chính mình và mọi người có thể hiểu hơn về thiết kế ứng dụng chữ và thiết kế chữ tại Việt Nam. Cuốn tạp chí là hành trình khám phá ngành công nghiệp thiết kế chữ tại Việt Nam qua góc nhìn của những nhà thiết kế nổi bật nhất của cộng đồng tại nơi đây.',
+      endNote: '&darr; kéo xuống &darr;',
+    },
+    details: {
+      description:
+        'VietType là một dự án để chính mình và mọi người có thể hiểu hơn về thiết kế ứng dụng chữ và thiết kế chữ tại Việt Nam. Cuốn tạp chí là hành trình khám phá ngành công nghiệp thiết kế chữ tại Việt Nam qua góc nhìn của những nhà thiết kế nổi bật nhất của cộng đồng tại nơi đây.',
+      src: '../viettype.gif',
+      alt: 'something',
+    },
+    message: "cảm ơn bạn!"
+  }
 };
 
 export const nung = {
