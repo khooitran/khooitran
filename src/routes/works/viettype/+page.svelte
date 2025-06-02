@@ -8,9 +8,14 @@
 
 {#if currentLanguage === "en"}
   <HeroSection {...viettype.en.hero} />
-  <ProjectDetails {...viettype.en.details} />
+  {#each viettype.en.details as detail}
+    <ProjectDetails {...detail} />
+  {/each}
   <Footer message={viettype.en.message} />
 {:else}
   <HeroSection {...viettype.vi.hero} />
-  <ProjectDetails {...viettype.vi.details} />
+  {#each viettype.vi.details as detail}
+    <ProjectDetails {...detail} />
+  {/each}
+  <Footer message={viettype.vi.message} />
 {/if}

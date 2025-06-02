@@ -3,15 +3,21 @@ export const viettype = {
     hero: {
       title: 'VietType',
       description:
-        'This was a project to better understand typography and type design in Vietnam, for both myself and the public. Presented as a magazine, the project was a journey into the type design industry in Vietnam, featuring leading Vietnamese type designers.',
+        'My second Capstone project aimed to provide a better understanding of typography and type design in Vietnam, for both myself and those interested. Presented as a magazine, the project was a journey into the type design industry in Vietnam, featuring leading Vietnamese type designers.',
       endNote: '&darr; scroll &darr;',
     },
-    details: {
-      description:
-        'This was a project to better understand typography and type design in Vietnam, for both myself and the public. Presented as a magazine, the project was a journey into the type design industry in Vietnam, featuring leading Vietnamese type designers.',
-      src: '../viettype.gif',
-      alt: 'something',
-    },
+    details: [
+      {
+        description: 'The project started with a',
+        src: '../viettype.gif',
+        alt: 'something',
+      },
+      {
+        description: 'Then something else happened',
+        src: '../viettype.gif',
+        alt: 'something',
+      }
+    ],
     message: "thank you!"
   },
 

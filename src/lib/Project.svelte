@@ -91,6 +91,7 @@
     h2 {
       font-size: 4.5vw;
     }
+
     p {
       font-size: 14px;
     }
