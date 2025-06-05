@@ -15,8 +15,18 @@ export const viettype = {
       {
         description: 'Still, I wanted to create something that is editorial, and the thought of making a magazine cross my mind. But not just any magazine; a magazine about typography, especially typography in Vietnam. I feel like this really is something new and localised, something that would provide real value for the designer community here. In addition to that, this will also be a chance for me to know more about the industry in Vietnam, and also its people. In terms of value, I feel like I have struck gold.',
         src: '../viettype.gif',
-        alt: 'something',
-      }
+        alt: 'the aim now changes to a magazine about typography and type design in Vietnam',
+      },
+      {
+        description: 'The project requires me to connect with type researchers and designers in Vietnam. I am very happy and glad to say that all it took was an email inviting each of them for a one-hour talk. I was very interested and surprised to hear about each of their individual stories, as well as the hardships and challenges that they have encountered along the way. These talks were recorded and then transcribed, as well as translated into Vietnamese, in a Google Document.',
+        src: '../viettype.gif',
+        alt: '',
+      },
+      {
+        description: 'As the content of the project is now ready, the next thing to do is to design the magazine. Here I experiment with different grammages, different styles of paper, and different layouts. Experimenting alongside researching and ',
+        src: '../viettype.gif',
+        alt: '',
+      },
     ],
     message: "thank you!"
   },
