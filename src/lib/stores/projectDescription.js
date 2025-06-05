@@ -20,7 +20,6 @@ export const viettype = {
     ],
     message: "thank you!"
   },
-
   vi: {
     hero: {
       title: 'ViệtType',
