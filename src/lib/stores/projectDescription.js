@@ -8,12 +8,12 @@ export const viettype = {
     },
     details: [
       {
-        description: 'The project started with a',
+        description: 'I went into this capstone project having a certain newfound interest in typography and type design. I have spent the last summer researching and practicing typography, particularly in Vietnam. My initial proposal of creating a guidebook about typography in Vietnamese is met with suspicion, as it does not create much value other than translating an English book into Vietnamese, which not only a designer can do. I was suggested to take on a bigger challenge, something that is newer and more localised.',
         src: '../viettype.gif',
-        alt: 'something',
+        alt: 'the initial proposal of the capstone project was a guidebook about typography.',
       },
       {
-        description: 'Then something else happened',
+        description: 'Still, I wanted to create something that is editorial, and the thought of making a magazine cross my mind. But not just any magazine; a magazine about typography, especially typography in Vietnam. I feel like this really is something new and localised, something that would provide real value for the designer community here. In addition to that, this will also be a chance for me to know more about the industry in Vietnam, and also its people. In terms of value, I feel like I have struck gold.',
         src: '../viettype.gif',
         alt: 'something',
       }

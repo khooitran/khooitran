@@ -59,6 +59,7 @@
 
     section {
       margin: 20px;
+      padding: 15px 0;
     }
   }
 
@@ -69,7 +70,7 @@
 
     p {
       padding-top: 20px;
-      width: 66vw;
+      width: 90%;
     }
 
     img {
