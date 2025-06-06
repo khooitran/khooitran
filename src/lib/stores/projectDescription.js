@@ -156,7 +156,22 @@ export const baviett = {
     },
     details: [
       {
-        description: '',
+        description: 'The first website and also the first project of mine came from my friend Baviet, who asked for a portfolio website that he was going to need the day after. This was 11pm when I received this message. Essentially I had a whole night and the next morning to complete this project. "What do you need?", "Just some where to put all the links in one place."',
+        src: '../baviett.gif',
+        alt: '',
+      },
+      {
+        description: 'The first edition of the website was made using just HTML and CSS to create a static website. At the time, that was all that I could do. The website features a list of YouTube links and Vimeo links of all the videos that Baviet has been a part of its production, divided in to three categories depending on the role he was working as. The website was delivered on time, and Baviett was able to land his job using that exact website.',
+        src: '../baviett.gif',
+        alt: '',
+      },
+      {
+        description: 'The website proved to be another learning experience when I wanted to learn about hosting. Using the same website, I learned to buy a domain name, and using it and hosting services to launch the website on said name. I guess it is not much for the normal programmer, but one has to start somewhere.',
+        src: '../baviett.gif',
+        alt: '',
+      },
+      {
+        description: 'In 2025 Svelte changed to Svelte 5, with its updated syntax. Once again, I turned to this website as a way to gain more experience. Equipped with the newfound knowledge, I rewritten the whole website into Svelte 5. I am glad to have such a project and such a friend that allows me to learn so much, while also doing something of actual benefit for someone. This, to me, is the best way of learning.',
         src: '../baviett.gif',
         alt: '',
       },
@@ -172,7 +187,22 @@ export const baviett = {
     },
     details: [
       {
-        description: '',
+        description: 'Dự án website đầu tiên của mình bắt đầu khi anh Bá Việt nhờ thiết kế portfolio gấp để dùng ngay sáng hôm sau. Lúc đó đã là 11 giờ đêm. Thế là mình chỉ có vỏn vẹn một đêm và sáng hôm sau để hoàn thành. "Anh cần website như thế nào ạ?", "Chỉ cần gom hết các link vào một chỗ thôi."',
+        src: '../baviett.gif',
+        alt: '',
+      },
+      {
+        description: 'Phiên bản đầu tiên của website được làm hoàn toàn bằng HTML và CSS - một trang web static đơn giản. Lúc ấy đó là tất cả những gì mình có thể làm được. Website bao gồm danh sách các link YouTube và Vimeo của tất cả video anh Việt từng tham gia sản xuất, chia thành ba mục theo vai trò của anh. Website được giao đúng hạn, và chính nhờ nó mà anh Việt đã xin được công việc mới vào ngày hôm sau.',
+        src: '../baviett.gif',
+        alt: '',
+      },
+      {
+        description: 'Website sau đó lại trở thành cơ hội để mình học hỏi khi mình muốn tìm hiểu về hosting. Mình học cách mua tên miền, sử dụng dịch vụ hosting để đưa website lên mạng thay vì dùng tên miền cho sẵn. Có lẽ với các bạn lập trình thì cái này là khá đơn giản, nhưng đối với mình thì là một khoảnh khắc mà mình rất thích trong quá trình học về web.',
+        src: '../baviett.gif',
+        alt: '',
+      },
+      {
+        description: 'Năm 2025, khi Svelte ra phiên bản mới là Svelte 5, mình lại dùng chính website này để luyện tập. Với kiến thức mới học được, mình đã viết lại toàn bộ website bằng Svelte 5. Mình rất biết ơn vì có một dự án và người anh như thế - vừa cho mình cơ hội học hỏi, vừa thực sự giúp ích được cho anh ấy. Với mình, đây chính là cách học tuyệt vời nhất.',
         src: '../baviett.gif',
         alt: '',
       },

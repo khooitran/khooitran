@@ -2,7 +2,7 @@ export const homepage = {
   en: {
     title: 'Khoi Tran',
     description:
-      "Hi! I am currently studying and practicing Design & Development in Hanoi, Vietnam. I have an interest in practical, functional, and logical designs, regardless of style, shape, or form. I am set to graduate in April 2026 with a Bachelor's in Design Studies from RMIT University Hanoi.",
+      "Hi! I am currently studying and practicing Design & Programming in Hanoi, Vietnam. I have an interest in practical, functional, and logical designs, regardless of style, shape, or form. I am set to graduate in April 2026 with a Bachelor's in Design Studies from RMIT University Hanoi.",
     endNote: '&darr; scroll &darr;',
   },
   vi: {
