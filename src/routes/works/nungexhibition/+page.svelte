@@ -11,7 +11,7 @@
   <section>
     <div class="buffer"></div>
     <a href="https://www.nungexhibition.com" target="_blank">
-      Visit the website here &gt;
+      Visit the website here: nungexhibition.com &gt;
     </a>
   </section>
   {#each nung.en.details as detail}
@@ -23,7 +23,7 @@
   <section>
     <div class="buffer"></div>
     <a href="https://www.nungexhibition.com" target="_blank">
-      Truy cập website tại đây &gt;
+      Truy cập website tại đây: nungexhibition.com &gt;
     </a>
   </section>
   {#each nung.vi.details as detail}

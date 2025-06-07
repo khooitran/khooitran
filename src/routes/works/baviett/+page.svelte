@@ -11,7 +11,7 @@
   <section>
     <div class="buffer"></div>
     <a href="https://www.baviett.com" target="_blank">
-      Visit the website here &gt;
+      Visit the website here: baviett.com &gt;
     </a>
   </section>
   {#each baviett.en.details as detail}
@@ -23,7 +23,7 @@
   <section>
     <div class="buffer"></div>
     <a href="https://www.baviett.com" target="_blank">
-      Truy cập website tại đây &gt;
+      Truy cập website tại đây: baviett.com &gt;
     </a>
   </section>
   {#each baviett.vi.details as detail}
