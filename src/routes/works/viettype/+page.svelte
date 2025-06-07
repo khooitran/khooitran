@@ -11,11 +11,93 @@
   {#each viettype.en.details as detail}
     <ProjectDetails {...detail} />
   {/each}
+  <section>
+    <div class="buffer"></div>
+    <div class="container">
+      <a href="../viettype/VietTypeMagazine.pdf" download="">
+        Download a digital copy of the magazine here &gt;
+      </a>
+      <a href="../viettype/DesignProcessBook.pdf" download="">
+        Download the process book here &gt;
+      </a>
+    </div>
+  </section>
   <Footer message={viettype.en.message} />
 {:else}
   <HeroSection {...viettype.vi.hero} />
   {#each viettype.vi.details as detail}
     <ProjectDetails {...detail} />
   {/each}
+  <section>
+    <div class="buffer"></div>
+    <div class="container">
+      <a href="../viettype/VietTypeMagazine.pdf" download="">
+        Tải bản mềm của tạp chí ở đây &gt;
+      </a>
+      <a href="../viettype/DesignProcessBook.pdf" download="">
+        Tải nhật ký quá trình ở đây &gt;
+      </a>
+    </div>
+  </section>
   <Footer message={viettype.vi.message} />
 {/if}
+
+<style>
+  section {
+    margin-right: 20px;
+    padding: 50px 0;
+    display: flex;
+  }
+
+  .buffer {
+    flex: 1;
+  }
+
+  .container {
+    flex: 3;
+  }
+
+  a {
+    margin: 0;
+    font-family: "IBM Plex Mono";
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: #fc3;
+  }
+
+  @media only screen and (max-width: 1280px) {
+    a {
+      font-size: 16px;
+    }
+  }
+
+  @media only screen and (max-width: 1080px) {
+    a {
+      font-size: 14px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .buffer {
+      display: none;
+    }
+
+    section {
+      margin: 20px;
+      padding: 15px 0;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    a {
+      padding-top: 20px;
+      width: 90%;
+    }
+  }
+</style>
