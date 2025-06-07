@@ -8,9 +8,6 @@
 
 {#if currentLanguage === "en"}
   <HeroSection {...viettype.en.hero} />
-  {#each viettype.en.details as detail}
-    <ProjectDetails {...detail} />
-  {/each}
   <section>
     <div class="buffer"></div>
     <div class="container">
@@ -22,12 +19,12 @@
       </a>
     </div>
   </section>
+  {#each viettype.en.details as detail}
+    <ProjectDetails {...detail} />
+  {/each}
   <Footer message={viettype.en.message} />
 {:else}
   <HeroSection {...viettype.vi.hero} />
-  {#each viettype.vi.details as detail}
-    <ProjectDetails {...detail} />
-  {/each}
   <section>
     <div class="buffer"></div>
     <div class="container">
@@ -39,6 +36,9 @@
       </a>
     </div>
   </section>
+  {#each viettype.vi.details as detail}
+    <ProjectDetails {...detail} />
+  {/each}
   <Footer message={viettype.vi.message} />
 {/if}
 

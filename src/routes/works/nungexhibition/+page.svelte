@@ -8,27 +8,27 @@
 
 {#if currentLanguage === "en"}
   <HeroSection {...nung.en.hero} />
-  {#each nung.en.details as detail}
-    <ProjectDetails {...detail} />
-  {/each}
   <section>
     <div class="buffer"></div>
     <a href="https://www.nungexhibition.com" target="_blank">
       Visit the website here &gt;
     </a>
   </section>
+  {#each nung.en.details as detail}
+    <ProjectDetails {...detail} />
+  {/each}
   <Footer message={nung.en.message} />
 {:else}
   <HeroSection {...nung.vi.hero} />
-  {#each nung.vi.details as detail}
-    <ProjectDetails {...detail} />
-  {/each}
   <section>
     <div class="buffer"></div>
     <a href="https://www.nungexhibition.com" target="_blank">
       Truy cập website tại đây &gt;
     </a>
   </section>
+  {#each nung.vi.details as detail}
+    <ProjectDetails {...detail} />
+  {/each}
   <Footer message={nung.vi.message} />
 {/if}
 

@@ -8,27 +8,27 @@
 
 {#if currentLanguage === "en"}
   <HeroSection {...baviett.en.hero} />
-  {#each baviett.en.details as detail}
-    <ProjectDetails {...detail} />
-  {/each}
   <section>
     <div class="buffer"></div>
     <a href="https://www.baviett.com" target="_blank">
       Visit the website here &gt;
     </a>
   </section>
+  {#each baviett.en.details as detail}
+    <ProjectDetails {...detail} />
+  {/each}
   <Footer message={baviett.en.message} />
 {:else}
   <HeroSection {...baviett.vi.hero} />
-  {#each baviett.vi.details as detail}
-    <ProjectDetails {...detail} />
-  {/each}
   <section>
     <div class="buffer"></div>
     <a href="https://www.baviett.com" target="_blank">
       Truy cập website tại đây &gt;
     </a>
   </section>
+  {#each baviett.vi.details as detail}
+    <ProjectDetails {...detail} />
+  {/each}
   <Footer message={baviett.vi.message} />
 {/if}
 
