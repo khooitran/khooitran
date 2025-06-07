@@ -54,6 +54,7 @@
     margin: 0;
     border-style: none;
     background: white;
+    color: #000;
     font-family: "IBM Plex Mono", serif;
     font-weight: 400;
     font-size: 36px;

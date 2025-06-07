@@ -36,7 +36,7 @@
 
   h1 {
     font-weight: 900;
-    font-size: 136px;
+    font-size: 7vw;
     flex: 1;
     margin: 0;
     padding: 0;
@@ -81,7 +81,7 @@
 
   @media only screen and (max-width: 1280px) {
     h1 {
-      font-size: 124px;
+      font-size: 7vw;
     }
 
     p {
@@ -97,7 +97,7 @@
 
   @media only screen and (max-width: 1024px) {
     h1 {
-      font-size: 96px;
+      font-size: 7vw;
     }
 
     p {

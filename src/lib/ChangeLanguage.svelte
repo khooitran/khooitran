@@ -22,6 +22,7 @@
     margin: 0;
     border-style: none;
     background: white;
+    color: #000;
     display: block;
     text-align: left;
     font-family: "IBM Plex Mono", serif;
@@ -31,7 +32,7 @@
   }
 
   button:hover {
-    color: #ffcc33;
+    color: #fc3;
     text-decoration: underline;
   }
 
