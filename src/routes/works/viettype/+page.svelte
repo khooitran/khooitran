@@ -12,10 +12,10 @@
     <div class="buffer"></div>
     <div class="container">
       <a href="../viettype/VietTypeMagazine.pdf" download="">
-        Download a digital copy of the magazine here &gt;
+        Download a digital copy of the magazine here
       </a>
       <a href="../viettype/DesignProcessBook.pdf" download="">
-        Download the process book here &gt;
+        Download the process book here
       </a>
     </div>
   </section>
@@ -29,10 +29,10 @@
     <div class="buffer"></div>
     <div class="container">
       <a href="../viettype/VietTypeMagazine.pdf" download="">
-        Tải bản mềm của tạp chí ở đây &gt;
+        Tải bản mềm của tạp chí ở đây
       </a>
       <a href="../viettype/DesignProcessBook.pdf" download="">
-        Tải nhật ký quá trình ở đây &gt;
+        Tải nhật ký quá trình ở đây
       </a>
     </div>
   </section>
@@ -62,12 +62,10 @@
     font-family: "IBM Plex Mono";
     font-size: 20px;
     display: block;
-    text-decoration: none;
     color: #000;
   }
 
   a:hover {
-    text-decoration: underline;
     color: #fc3;
   }
 

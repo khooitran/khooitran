@@ -11,7 +11,7 @@
   <section>
     <div class="buffer"></div>
     <a href="https://www.nungexhibition.com" target="_blank">
-      Visit the website here: nungexhibition.com &gt;
+      Visit the website here: nungexhibition.com
     </a>
   </section>
   {#each nung.en.details as detail}
@@ -23,7 +23,7 @@
   <section>
     <div class="buffer"></div>
     <a href="https://www.nungexhibition.com" target="_blank">
-      Truy cập website tại đây: nungexhibition.com &gt;
+      Truy cập website tại đây: nungexhibition.com
     </a>
   </section>
   {#each nung.vi.details as detail}
@@ -49,12 +49,10 @@
     font-family: "IBM Plex Mono";
     font-size: 20px;
     display: block;
-    text-decoration: none;
     color: #000;
   }
 
   a:hover {
-    text-decoration: underline;
     color: #fc3;
   }
 
