@@ -32,7 +32,7 @@ export const contact = {
   en: {
     title: 'Contact',
     description:
-      "Let's connect!<br />You can reach me through:<br /><br />Email: <a href='mailto:khooi.tr@gmail.com'>khooi.tr@gmail.com</a><br />Instagram: <a href='https://www.instagram.com/khooi.tran/' target='_blank'>@khooi.tran</a><br />Here's my <a href='./CV-en.pdf' download=''>CV!</a>",
+      "Let's connect!<br />You can reach me through:<br /><br />Email: <a href='mailto:khooi.tr@gmail.com'>khooi.tr@gmail.com</a><br />Instagram: <a href='https://www.instagram.com/khooi.tran/' target='_blank'>@khooi.tran</a><br />Here's <a href='./CV-en.pdf' download=''>my CV!</a>",
     endNote: "&uarr; let's work together! &uarr;",
   },
   vi: {
