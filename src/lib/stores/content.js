@@ -32,13 +32,13 @@ export const contact = {
   en: {
     title: 'Contact',
     description:
-      "Let's connect!<br />You can reach me through:<br /><br />Email: <a href='mailto:khooi.tr@gmail.com'>khooi.tr@gmail.com</a><br />Instagram: <a href='https://www.instagram.com/khooi.tran/' target='_blank'>@khooi.tran",
+      "Let's connect!<br />You can reach me through:<br /><br />Email: <a href='mailto:khooi.tr@gmail.com'>khooi.tr@gmail.com</a><br />Instagram: <a href='https://www.instagram.com/khooi.tran/' target='_blank'>@khooi.tran</a><br />Here's my <a href='./CV-en.pdf' download=''>CV!</a>",
     endNote: "&uarr; let's work together! &uarr;",
   },
   vi: {
     title: 'Liên hệ',
     description:
-      "Mong được làm việc cùng bạn!<br />Hãy liên hệ với mình qua:<br /><br /> Email: <a href='mailto:khooi.tr@gmail.com'>khooi.tr@gmail.com</a><br />Instagram: <a href='https://www.instagram.com/khooi.tran/' target='_blank'>@khooi.tran",
+      "Mong được làm việc cùng bạn!<br />Hãy liên hệ với mình qua:<br /><br /> Email: <a href='mailto:khooi.tr@gmail.com'>khooi.tr@gmail.com</a><br />Instagram: <a href='https://www.instagram.com/khooi.tran/' target='_blank'>@khooi.tran</a><br />Đây là <a href='./CV-vi.pdf' download=''>CV của mình!</a>",
     endNote: '&uarr; Hẹn gặp bạn nhé! &uarr;',
   },
 };
