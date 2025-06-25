@@ -36,7 +36,7 @@
   }
 
   img {
-    width: 100%;
+    width: 66%;
     flex: 2;
   }
 
