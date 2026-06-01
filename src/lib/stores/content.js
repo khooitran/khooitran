@@ -2,7 +2,7 @@ export const homepage = {
   en: {
     title: 'Khoi Tran',
     description:
-      "Hi! I am currently studying and practicing Design & Development in Hanoi, Vietnam. I have an interest in practical, functional, and logical designs, regardless of style, shape, or form. I am set to graduate in April 2026 with a Bachelor's in Design Studies from RMIT University Hanoi.",
+      "Hi! I am currently studying and practicing Design & Development in Hanoi, Vietnam, with a Bachelor's Degree in Design Studies from RMIT University. I have an interest in practical, functional, and logical designs, regardless of style, shape, or form.",
     endNote: '&darr; scroll &darr;',
   },
   vi: {
@@ -32,13 +32,13 @@ export const contact = {
   en: {
     title: 'Contact',
     description:
-      "Let's connect!<br />You can reach me through:<br /><br />Email: <a href='mailto:khooi.tr@gmail.com'>khooi.tr@gmail.com</a><br />Instagram: <a href='https://www.instagram.com/khooi.tran/' target='_blank'>@khooi.tran</a><br />Here's <a href='./TranBaoKhoi_CV.pdf' download=''>my CV!</a>",
+      "Let's connect!<br />You can reach me through:<br /><br />Email: <a href='mailto:khooi.tr@gmail.com'>khooi.tr@gmail.com</a><br />Here's <a href='./TranBaoKhoi_CV.pdf' download=''>my CV!</a>",
     endNote: "&uarr; let's work together! &uarr;",
   },
   vi: {
     title: 'Liên hệ',
     description:
-      "Mong được làm việc cùng bạn!<br />Hãy liên hệ với mình qua:<br /><br /> Email: <a href='mailto:khooi.tr@gmail.com'>khooi.tr@gmail.com</a><br />Instagram: <a href='https://www.instagram.com/khooi.tran/' target='_blank'>@khooi.tran</a><br />Đây là <a href='./TranBaoKhoi_CV.pdf' download=''>CV của mình!</a>",
+      "Mong được làm việc cùng bạn!<br />Hãy liên hệ với mình qua:<br /><br /> Email: <a href='mailto:khooi.tr@gmail.com'>khooi.tr@gmail.com</a><br />Đây là <a href='./TranBaoKhoi_CV.pdf' download=''>CV của mình!</a>",
     endNote: '&uarr; Hẹn gặp bạn nhé! &uarr;',
   },
 };
