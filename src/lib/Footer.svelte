@@ -23,11 +23,13 @@
   }
 
   p {
-    font-family: "IBM Plex Mono";
+    font-family: "Inter", san-serif;
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: -2%;
     margin: 0;
     padding: 0;
     flex: 3;
-    font-size: 36px;
   }
 
   @media only screen and (max-width: 1280px) {

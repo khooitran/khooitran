@@ -8,7 +8,7 @@ export const homepage = {
   vi: {
     title: 'Khôi Trần',
     description:
-      'Xin chào! Mình hiện đang học tập và thực hành Thiết kế & Lập trình tại Hà Nội, Việt Nam. Mình rất thích các thiết kế mang tính thực tiễn, ứng dụng, và logic, ở bất kể hình thức nào. Mình sẽ tốt nghiệp đại học RMIT Hà Nội với bằng Cử nhân Thiết kế Ứng dụng Sáng Tạo vào tháng 4 năm 2026.',
+      'Xin chào! Mình hiện đang học tập và thực hành Thiết kế & Lập trình tại Hà Nội, Việt Nam, với bằng cử nhân Thiết kế Sáng Tạo từ Đại học RMIT Hà Nội. Mình rất thích các thiết kế mang tính thực tiễn, ứng dụng, và logic, ở bất kể hình thức nào.',
     endNote: '&darr; kéo xuống &darr;',
   },
 };

@@ -45,7 +45,7 @@
 
   h2 {
     font-size: 48px;
-    font-family: "IBM Plex Mono", "serif";
+    font-family: "Inter", sans-serif;
   }
 
   button a {
@@ -66,8 +66,11 @@
   }
 
   p {
-    font-family: "IBM Plex Mono";
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
     font-size: 20px;
+    letter-spacing: 2%;
+    line-height: 136%;
     margin: 0;
     margin-right: 36px;
     flex: 1;

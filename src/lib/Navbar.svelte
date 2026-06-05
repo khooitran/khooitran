@@ -54,9 +54,10 @@
     background: white;
     display: block;
     text-align: left;
-    font-family: "IBM Plex Mono", serif;
-    font-weight: 400;
+    font-family: "Inter", san-serif;
+    font-weight: 500;
     font-size: 36px;
+    letter-spacing: -2%;
     cursor: pointer;
   }
 

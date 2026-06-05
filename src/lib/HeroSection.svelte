@@ -20,7 +20,7 @@
 <style>
   h1,
   p {
-    font-family: "IBM Plex Mono", serif;
+    font-family: "Inter", san-serif;
   }
 
   .hero-section {
@@ -35,8 +35,9 @@
   }
 
   h1 {
-    font-weight: 900;
+    font-weight: 700;
     font-size: 7vw;
+    letter-spacing: -4%;
     flex: 1;
     margin: 0;
     padding: 0;
@@ -57,8 +58,9 @@
   }
 
   p {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 36px;
+    letter-spacing: -2%;
     width: 70%;
     margin: 0;
     padding: 0;
@@ -67,8 +69,8 @@
   .description :global {
     a {
       color: black;
-      font-family: "IBM Plex Mono", serif;
-      font-weight: 400;
+      font-family: "Inter", sans-serif;
+      font-weight: 500;
       font-size: 36px;
     }
 

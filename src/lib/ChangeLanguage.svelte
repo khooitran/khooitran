@@ -25,8 +25,9 @@
     color: #000;
     display: block;
     text-align: left;
-    font-family: "IBM Plex Mono", serif;
-    font-weight: 400;
+    font-family: "Inter", san-serif;
+    font-weight: 500;
+    letter-spacing: -2%;
     font-size: 36px;
     z-index: 1;
   }
