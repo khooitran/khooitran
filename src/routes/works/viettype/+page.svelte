@@ -59,7 +59,7 @@
 
   a {
     margin: 0;
-    font-family: "IBM Plex Mono";
+    font-family: "Inter", sans-serif;
     font-size: 20px;
     display: block;
     color: #000;
